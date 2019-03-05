@@ -1,14 +1,14 @@
 {
-    "full_name": "Gus Dunn",
-    "email": "w.gus.dunn@gmail.com",
-    "github_username": "xguse",
+    "full_name": "Alexander Gosdschan",
+    "email": "alex.gos90[at]gmail.com",
+    "github_username": "alexg9010",
     "github_org": "",
 
     "pipeline_name": "Cool pipeline name",
     "repo_name": "{{cookiecutter.pipeline_name|replace(' ', '-')|lower}}",
     "pipeline_short_description": "Quick reason(s) why this pipeline is cool.",
 
-    "year": "2016",
+    "year": "2019",
     "version": "0.0.1",
 
     "github_url": "git@github.com:{{cookiecutter.github_org if cookiecutter.github_org else cookiecutter.github_username}}/{{cookiecutter.repo_name}}.git"

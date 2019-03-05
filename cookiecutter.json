@@ -7,6 +7,8 @@
     "pipeline_name": "Cool pipeline name",
     "repo_name": "{{cookiecutter.pipeline_name|replace(' ', '-')|lower}}",
     "pipeline_short_description": "Quick reason(s) why this pipeline is cool.",
+    
+    "project_name": "Some Project",
 
     "year": "2019",
     "version": "0.0.1",
